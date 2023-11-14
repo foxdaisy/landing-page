@@ -7,6 +7,9 @@ body {
     margin: 0;
 }
 
+
+/* HEADER */
+
 .header a {
     font-size: 18px;
     color: #e5e7eb;
@@ -36,4 +39,38 @@ ul {
     align-items: center;
     padding: 8px 170px;
     flex: 1;
+}
+
+
+
+
+/* SECTION 1 */
+
+.section-one {
+    background-color: #1F2837;
+}
+
+.main {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.secondary,
+button {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    background-color:#3882F6;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 32px;
+    font-weight: bold;
+}
+
+.placeholder {
+    background-color: gray;
+    color: #e5e7eb;
 }
