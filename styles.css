@@ -55,6 +55,7 @@ ul {
     font-weight: 800;
     color: #f9faf8;
     margin: 0;
+    padding-right: 56px;
 }
 
 .secondary {
@@ -110,3 +111,4 @@ button {
     justify-content: space-evenly;
 }
 
+/* SECTION 2 */
