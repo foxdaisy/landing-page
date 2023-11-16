@@ -184,3 +184,25 @@ button {
     color: #1f2937;
     text-align: right;
 }
+
+/* FLEXBOX */
+
+.section-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.author {
+    align-self: flex-end;
+    flex: 1;
+    max-width: 790px;
+    margin-right: 140px;
+}
+
+.quote {
+    align-self: center;
+    flex: 1;
+    max-width: 790px;
+}
