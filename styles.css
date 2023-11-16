@@ -211,9 +211,14 @@ ul {
 
 /* STYLES */
 
+.section-four {
+    padding: 110px 162px;
+}
+
 .call-container,
 .call-button {
     background-color: #3882f6;
+    border-radius: 12px;
 }
 
 .call {
@@ -236,3 +241,14 @@ ul {
     padding: 6px 24px;
 }
 
+/* FLEXBOX */
+
+.section-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-container {
+    flex: 1;
+}
