@@ -65,13 +65,13 @@ ul {
 }
 
 .secondary,
-button {
+.section-one button {
     font-size: 18px;
     color: #e5e7eb;
     padding-right: 56px;
 }
 
-button {
+.section-one button {
     background-color:#3882F6;
     border: none;
     border-radius: 8px;
@@ -101,7 +101,7 @@ button {
     justify-content: center;
 } 
 
-button {
+.section-one button {
     align-self: flex-start;
 }
 
@@ -206,3 +206,33 @@ button {
     flex: 1;
     max-width: 790px;
 }
+
+/* SECTION 4 */
+
+/* STYLES */
+
+.call-container,
+.call-button {
+    background-color: #3882f6;
+}
+
+.call {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.call-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.call-button {
+    border: 2px solid #f9faf8;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 6px 24px;
+}
+
