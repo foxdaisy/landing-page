@@ -263,3 +263,18 @@ ul {
     justify-content: center;
     align-items: flex-start;
 }
+
+/* FOOTER */
+
+.footer-text {
+    font-size: 18px;
+    color: #e5e7eb; 
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
