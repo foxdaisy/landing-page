@@ -20,7 +20,7 @@ ul {
 }
 
 .container {
-    max-width: 80vw;
+    max-width: 950px;
     margin: 0 auto;
     padding: 0 30px;
 }
@@ -34,7 +34,7 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 30px;
+    gap: 60px;
 }
 
 .menu .logo {
