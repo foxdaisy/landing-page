@@ -20,9 +20,9 @@ ul {
 }
 
 .container {
-    max-width: 950px;
     margin: 0 auto;
     padding: 0 30px;
+    max-width: 1000px;
 }
 
 .menu {
@@ -71,7 +71,7 @@ ul {
 
 .hero .container {
     display: flex;
-    gap: 10px;
+    gap: 40px;
     align-items: center;
     justify-content: center;
 
@@ -83,7 +83,7 @@ ul {
 }
 
 .hero .text {
-    max-width: 440px;
+    max-width: 460px;
 }
 
 .hero h1 {
