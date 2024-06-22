@@ -159,9 +159,6 @@ ul {
 
 .quote {
     background-color: #E5E7EB;
-    padding-top: 8vh;
-    padding-bottom: 8vh;
-
 }
 
 .quote .container {
@@ -180,6 +177,7 @@ ul {
     font-weight: 300;
     font-size: 36px;
     align-self: center;
+    padding-top: 20px;
 }
 
 .quote .author {
@@ -190,3 +188,33 @@ ul {
     align-self: flex-end;
 }
 
+.action,
+.quote {
+    padding-top: 12vh;
+    padding-bottom: 12vh;
+}
+
+.action .container {
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 3em 2em;
+    max-width: 880px;
+}
+
+.action h3 {
+    color:#F9FAF8;
+    font-size: 22px;
+}
+
+.action p {
+    color:#E5E7EB;
+}
+
+.action .button-like {
+    display: inline-block;
+    color:#F9FAF8;
+    font-weight: bold;
+    border: 1.5px solid #F9FAF8;
+    border-radius: 6px;
+    padding: 4px 28px;
+}
