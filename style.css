@@ -78,8 +78,8 @@ ul {
     flex-wrap: wrap;
 
 
-    padding-top: 10vh;
-    padding-bottom: 15vh;
+    padding-top: 8vh;
+    padding-bottom: 12vh;
 }
 
 .hero .text {
@@ -88,7 +88,7 @@ ul {
 
 .hero h1 {
     font-size: 48px;
-    font-weight: 600;
+    font-weight: 800;
     color: #F9FAF8;
     margin-bottom: 10px;;
 }
@@ -103,7 +103,7 @@ ul {
 }
 
 .hero .image-like {
-    background-color: grey;
+    background-color: #6d747d;
     color: #E5E7EB;
     width: 440px;
     height: 220px;
@@ -113,4 +113,46 @@ ul {
     flex-shrink: 0;
     justify-content: center;
     align-items: center;
+}
+
+.info .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    padding-top: 4vh;
+    padding-bottom: 12vh;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.info h2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.info .box {
+    border: 3.5px solid #3882F6;
+    border-radius: 12px;
+    width: 150px;
+    height: 150px;
+
+    flex-shrink: 0;
+}
+
+.info p {
+    padding-top: 8px;
+    color: #6d747d;
+    max-width: 150px;
+    text-align: center;
 }
