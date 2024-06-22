@@ -26,7 +26,6 @@ ul {
 }
 
 .menu {
-    background-color: #1F2937;
     padding: 16px 0 16px;
 }
 
@@ -63,4 +62,7 @@ ul {
     color: #F9FAF8;
 }
 
-
+.menu,
+.hero {
+    background-color: #1F2937;
+}
