@@ -199,7 +199,12 @@ ul {
     border-radius: 8px;
     padding: 3em 2em;
     max-width: 880px;
-    margin: 0 30px;
+    margin: 0 auto;
+}
+
+.action {
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 .action h3 {
