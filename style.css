@@ -69,10 +69,28 @@ ul {
     background-color: #1F2937;
 }
 
+.hero .container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+
+    padding-top: 10vh;
+    padding-bottom: 15vh;
+}
+
+.hero .text {
+    max-width: 440px;
+}
+
 .hero h1 {
     font-size: 48px;
     font-weight: 600;
     color: #F9FAF8;
+    margin-bottom: 10px;;
 }
 
 .hero .button-like {
@@ -81,6 +99,7 @@ ul {
     background-color: #3882F6;
     border-radius: 8px;
     padding: 0.3em 2.3em;
+    margin-top: 20px;
 }
 
 .hero .image-like {
@@ -88,7 +107,10 @@ ul {
     color: #E5E7EB;
     width: 440px;
     height: 220px;
+    margin-top: 40px;
+
     display: flex;
+    flex-shrink: 0;
     justify-content: center;
     align-items: center;
 }
