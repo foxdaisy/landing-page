@@ -199,6 +199,7 @@ ul {
     border-radius: 8px;
     padding: 3em 2em;
     max-width: 880px;
+    margin: 0 30px;
 }
 
 .action h3 {
@@ -206,7 +207,7 @@ ul {
     font-size: 22px;
 }
 
-.action p {
+.action .text p {
     color:#E5E7EB;
 }
 
@@ -217,4 +218,13 @@ ul {
     border: 1.5px solid #F9FAF8;
     border-radius: 6px;
     padding: 4px 28px;
+    flex-shrink: 0;
+}
+
+.action .box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
 }
