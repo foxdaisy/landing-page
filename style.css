@@ -228,3 +228,10 @@ ul {
     gap: 40px;
     flex-wrap: wrap;
 }
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 4vh 20px;
+    text-align: center;
+}
